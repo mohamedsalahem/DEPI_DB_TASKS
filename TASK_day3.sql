@@ -21,3 +21,4 @@ ORDER BY num_of_orders;
 SELECT top 10 upper(first_name),LOWER(last_name) FROM sales.customers;
 
 --6
+SELECT TOP 10 product_name,LEN(product_name) as name_lenght FROM production.products;
